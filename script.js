@@ -53,3 +53,49 @@ function lowerCase(l) {
       return upperCase(lowerCases);
   }
 }
+
+
+function upperCase(l) {
+
+  var upperCases = confirm("Do you want to include Upper case")
+
+  if (upperCases === false) {
+    number(upperCases);
+  }
+  else {
+    upperCases = String.fromCharCode(Math.floor(Math.random() * 26) + 65)
+    upperCases += l;
+    return number(upperCases);
+  }
+
+}
+
+function number(l) {
+
+  var numbers = confirm("Do you want to include Numbers ")
+
+  if (numbers === false) {
+    symbol(numbers);
+  }
+  else {
+    numbers = String.fromCharCode(Math.floor(Math.random() * 10) + 48)
+    numbers += l;
+    return symbol(numbers);
+  }
+}
+
+
+function symbol(l) {
+
+  var symbols = confirm("Do you want to include special characters ")
+
+  if (symbols === false) {
+    checkLengthValidation();
+  }
+  else {
+    const specialCharacters = "!@#$%^&*()_+<>,./"
+    symbols = specialCharacters[Math.floor(Math.random() * specialCharacters.length)]
+    symbols += l;
+    return symbols;
+  }
+}
