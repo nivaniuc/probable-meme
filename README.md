@@ -9,12 +9,11 @@ This is a password generator for users who want to quickly and easily make a pas
 
 ## Website
 
-((Heroku is being buggy and keeps giving me errors))
-
 ![Application Image](https://github.com/nivaniuc/probable-meme/blob/main/assets/images/pwgen.png)
+[Deployed Site](https://nivaniuc.github.io/probable-meme/)
 
 ## License
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Support
 Please contact me if you want to collab or roast my code. Thanks.
